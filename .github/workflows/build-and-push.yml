@@ -24,5 +24,6 @@ jobs:
        password: ${{ secrets.DOCKER_PASSWORD }}
     # Server address of Docker registry. If not set then will default to Docker Hub
        repository: whispin/oneindex-docker
+       dockerfile: Dockerfile
        tags: latest
  
